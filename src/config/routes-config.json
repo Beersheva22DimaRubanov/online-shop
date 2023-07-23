@@ -1,0 +1,29 @@
+{
+    "always" : [
+        {"to": "/catalog", "label": "Catalog", "order": 2},
+        {"to": "/", "label": "Home", "order": 1}
+    ],
+    "nonauthenticated" : [
+        {
+            "to": "/signIn", "label": "SignIn", "order": 10
+        }
+    ], 
+   
+    "admin": [
+        {
+            "to": "/products", "label": "Products", "order": 9
+        },
+        {
+            "to": "/addProducts", "label": "Add Products", "order": 9
+        },
+        {
+            "to": "/orders", "label": "Orders", "order": 9
+        },
+        {
+            "to": "/signOut", "label": "Sign out", "order": 10
+        },
+        {
+            "to": "/generateProducts", "label": "Generate", "order": 8
+        }
+    ]
+}
